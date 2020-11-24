@@ -5,33 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio | Matheus Monteiro</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="principal">
       <header>
+        <h1 id="full-name">👾 Matheus Henrique Santos Monteiro 👾 </h1>
+        
         <nav>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#skills">Habilidades</a></li>
-            <li><a href="#portfolio">Portfólio</a></li>
+            <li class="nav-main"><a href="index.html">Home</a></li>
+            <li class="nav-main"><a href="#about">Sobre</a></li>
+            <li class="nav-main"><a href="#skills">Habilidades</a></li>
+            <li class="nav-main"><a href="#portfolio">Portfólio</a></li>
           </ul>
         </nav>
+        <img class="gif" src="./images/giphy.gif" alt="">
+        
 
-        <h1>Matheus Henrique Santos Monteiro</h1>
-        <img
-          id="main-picture"
-          src="./images/main-pic.JPG"
-          alt="Foto de fundo Matheus Monteiro";/>
 
       </header>
       
       <section id="about" class="content-section">
-        <h2>
+        <div class="card">
+        <img
+          id="main-picture"
+          src="./images/smaller-pic.JPG"
+          alt="Foto de fundo Matheus Monteiro";/>
+        </div>
+        <div class="card middleContent">
+        <h2 class="fontSample">
           Sou apenas mais um jovem levando a vida com um pouco de protagonismo e
           ambição, no bom sentido da palavra!
         </h2>
-        <p>Natural de Campina Grande | PB </p>
+        <p class="paragraph">Natural de Campina Grande | PB </p>
+        <p class="paragraph">Atualmente estudo desenvolvimento de software na Trybe, em busca de me tornar um desenvolvedor full-stack.</p>
+        <p class="paragraph">A virada de chave em minha vida começou aos 16 anos, ao ser selecionado para representar meu estado no Parlamento Juvenil do MERCOSUL - durante o biênio 2016 à 2018, no qual tive a oportunidade de desenvolver meu protagonismo juvenil em conferências nacionais e internacionais.
+        </p> 
+        <p class="paragraph">Em 2019, fui um dos 50 selecionados para representar o Brasil em um intercâmbio governamental como Jovem Embaixador - missão diplomática da Embaixada dos Estados Unidos, voltado para jovens que se destacam em sua comunidade pelas atitudes positivas, bom desempenho acadêmico, conhecimento da língua inglesa, capacidade de liderança e espírito empreendedor.
+
+        </p>
+      </div>
       </section>
 
       <section id="skills" class="content-section">
